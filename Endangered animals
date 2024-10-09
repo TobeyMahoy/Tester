@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endangered and Threatened Animals</title>
+    <style>
+        body {
+            background-color: #FFD1AA;
+            font-size: 18px;
+        }
+        .threatened {
+            color:OrangeRed;
+        }
+        .scientific-name { font-style:italic;
+            
+        }
+        .endangered {
+            color:red;
+        }
+        h2 {
+            Color:#162955;
+        }
+        h1 {
+            Color:#003333;
+        }
+        #Picture1 {
+            Border-style:Dotted;
+        }
+        #Picture2 {
+            Border-style:Solid;
+        }
+         #Picture3 {
+            Border-style:Double;
+        }
+         #Picture4 {
+            Border-style:outset;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Florida Panther</h1>
+    <ul>
+        <li class="scientific-name">Scientific Name: Puma concolor coryi</li>
+        <li>Where it Lives: Florida, USA</li>
+        <li class="endangered">Status: Endangered</li>
+    </ul>
+    
+     <img src="https://corkscrew.audubon.org/sites/default/files/styles/bean_wysiwyg_full_width/public/panther_remote_camera.jpg?itok=VpyWsOkt" width="200" id="Picture1">
+
+    <h2>California Condor</h2>
+
+    <ul>
+        <li class="scientific-name">Scientific Name: Gymnogyps californianus</li>
+        <li>Where it Lives: California, Arizona, Utah</li>
+        <li class="endangered">Status: Endangered</li>
+    </ul>
+
+    <img src="https://npr.brightspotcdn.com/dims4/default/6f909c6/2147483647/strip/true/crop/1512x851+0+115/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkalw%2Ffiles%2F201301%2FCalifornia_Condor.jpg" width="200" id="Picture2">
+
+    <h2>Mountain Plover</h2>
+    <ul>
+        <li class="scientific-name">Scientific Name: Charadrius montanus</li>
+        <li>Where it Lives: North American Great Plains</li>
+        <li class="threatened">Status: Threatened</li>
+    </ul>
+
+    <img src="https://www.allaboutbirds.org/guide/assets/photo/301224851-480px.jpg" width="200" id="Picture3">
+
+    <h2>Eastern Black Rail</h2>
+    <ul>
+        <li class="scientific-name">Scientific Name: Laterallus jamaicensis</li>
+        <li>Where it Lives: Eastern United States</li>
+        <li class="threatened">Status: Threatened</li>
+    </ul>
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQcCnMkpko8RlJfFguCtMXqXH5uXfyjlCFNg&s" width="200" Id="Picture4">
+    
+
+</body>
+</html>
